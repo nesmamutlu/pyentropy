@@ -7,7 +7,6 @@ R = 8.31446
 T = 298.15
 
 def calculate_Si(Theta_i, T):
-    exp_term = np.exp(Theta_i / T)
     Si = ((Theta_i / T) / (np.exp(Theta_i / T) - 1)) - np.log(1 - np.exp(-Theta_i / T))
     return Si
 
@@ -67,5 +66,7 @@ if 'S_i' in df.columns:
     print(f"Total Entropy (S_total): {S_total}")
     print(f"Total Entropy multiplied by R (R * S_total): {S_total_R}")
 
+
 print(df)
+
 
