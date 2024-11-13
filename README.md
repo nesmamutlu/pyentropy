@@ -1,7 +1,7 @@
 Entropy Calculation Scripts
 
 This repository contains Python scripts for calculating entropy based on different data sources. 
-These scripts are useful for computational chemistry and molecular simulations, where entropy calculations are required for vibrational, internal and  c2 entropy.
+These scripts are useful for computational chemistry and molecular simulations, where entropy calculations are required for vibrational, interaction and  c2 entropy.
 Files
 
     vib_entropy.py: Calculates vibrational entropy from a log or text file containing frequency data or force constants in normal modes.
