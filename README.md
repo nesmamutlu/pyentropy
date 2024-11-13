@@ -5,7 +5,7 @@ These scripts are useful for computational chemistry and molecular simulations, 
 Files
 
     vib_entropy.py: Calculates vibrational entropy from a log or text file containing frequency data or force constants in normal modes.
-    int_c2_entro.py: Computes internal entropy (int_entropy) and C2 entropy (c2) from a CSV file of MMPBSA analysis results, specifically extracting GGAS values.
+    int_c2_entro.py: Computes interaction entropy (int_entropy) and C2 entropy (c2) from a CSV file of MMPBSA analysis results, specifically extracting GGAS values.
 
     Usage
 1. vib_entropy.py
